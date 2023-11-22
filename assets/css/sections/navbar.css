@@ -1,0 +1,49 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.logo .logo-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--heading-color);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .nav-list {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar-actions {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+}

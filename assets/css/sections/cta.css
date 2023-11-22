@@ -1,0 +1,32 @@
+.cta {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateY(50%) translateX(-50%);
+  width: 100%;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.5rem 4.5rem;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+  border-radius: var(--rounded);
+  background-color: #fff;
+}
+
+.cta-content {
+  max-width: 370px;
+}
+
+@media (max-width: 1024px) {
+  .cta-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cta-content {
+    max-width: none;
+  }
+}

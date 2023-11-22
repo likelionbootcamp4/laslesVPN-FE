@@ -1,0 +1,91 @@
+h1 {
+  color: var(--heading-color);
+  font-size: 3.125rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+h2 {
+  color: var(--heading-color);
+  font-size: 2.1875rem;
+  font-weight: 500;
+  line-height: 1.42857;
+}
+
+.heading-box {
+  text-align: center;
+  max-width: 555px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.heading-box h2 {
+  max-width: 383px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 2.14286;
+}
+
+.btn-primary {
+  padding: 1rem 3rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: var(--rounded);
+  transition: 0.3s;
+  font-weight: 800;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-outline {
+  padding: 0.8rem 2rem;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--rounded-lg);
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-link {
+  color: var(--heading-color);
+  font-weight: 500;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.875rem;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

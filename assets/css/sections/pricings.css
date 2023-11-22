@@ -1,0 +1,76 @@
+.pricings-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875rem;
+
+  margin-top: 4rem;
+}
+
+.pricings-card {
+  border: 2px solid var(--border-color);
+  border-radius: var(--rounded);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 5rem 2rem 3rem 2rem;
+}
+
+.pricings-card:hover {
+  border-color: var(--primary-color);
+}
+
+.pricings-header {
+  text-align: center;
+  margin-bottom: 1.875rem;
+}
+
+.pricings-title {
+  margin-top: 1.875rem;
+  font-size: 1.125rem;
+  line-height: 1.6667;
+  font-weight: 500;
+  color: var(--heading-color);
+}
+
+.pricings-body {
+  margin-bottom: 3rem;
+}
+
+.pricings-services {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.pricing-service {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.pricings-footer {
+  margin-top: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.pricings-cost {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--heading-color);
+  margin-bottom: 1.25rem;
+}
+
+.pricings-cost span {
+  color: var(--body-color);
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .pricings-cards {
+    grid-template-columns: 1fr;
+  }
+}

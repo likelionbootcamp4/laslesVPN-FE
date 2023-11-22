@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #f53838;
+  --secondary-color: #ffecec;
+  --body-color: #4f5665;
+  --heading-color: #0b132a;
+  --border-color: #dddddd;
+  --success-color: #2fab73;
+
+  --rounded: 10px;
+  --rounded-lg: 50px;
+}

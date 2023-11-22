@@ -1,0 +1,122 @@
+.review-swiper {
+  margin-top: 4rem;
+}
+
+.review-swiper-wrapper {
+  display: flex;
+  gap: 1.875rem;
+  overflow-x: scroll;
+  padding-bottom: 1rem;
+}
+
+.review-swiper-slide {
+  flex-shrink: 0;
+  width: 40%;
+}
+
+.review-swiper-card {
+  padding: 1.875rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--rounded);
+}
+
+.review-swiper-card:hover {
+  border-color: var(--primary-color);
+}
+
+.review-swiper-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.review-swiper-customer {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.review-swiper-customer-name {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.667;
+  color: var(--heading-color);
+}
+
+.review-swiper-customer-avatar {
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.review-swiper-rating {
+  color: var(--heading-color);
+}
+
+.review-swiper-rating ion-icon {
+  font-size: 1rem;
+}
+
+.review-swiper-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+}
+
+.review-swiper-paginations {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.review-swiper-pagination-bullet {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #dde0e4;
+}
+
+.review-swiper-pagination-bullet.active {
+  background-color: var(--primary-color);
+  width: 3rem;
+  border-radius: var(--rounded);
+}
+
+.review-swiper-navigations {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.review-swiper-btn-next,
+.review-swiper-btn-prev {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-swiper-btn-next:hover,
+.review-swiper-btn-prev:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.review-swiper-btn-next ion-icon,
+.review-swiper-btn-prev ion-icon {
+  font-size: 1.875rem;
+}
+
+@media (max-width: 768px) {
+  .review-swiper-slide {
+    width: 80%;
+  }
+}
