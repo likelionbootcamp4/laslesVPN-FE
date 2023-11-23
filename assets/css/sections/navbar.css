@@ -22,6 +22,10 @@
   gap: 2.5rem;
 }
 
+.nav-link:hover {
+  color: var(--heading-color);
+}
+
 .navbar-actions {
   display: flex;
   align-items: center;

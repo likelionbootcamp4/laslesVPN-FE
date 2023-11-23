@@ -9,6 +9,7 @@
       type="image/x-icon"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <title>LaslesVPN</title>
@@ -24,19 +25,19 @@
           </div>
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="" class="nav-link">About</a>
+              <a href="#stats" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Features</a>
+              <a href="#features" class="nav-link">Features</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Pricing</a>
+              <a href="#pricings" class="nav-link">Pricing</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Testimonials</a>
+              <a href="#reviews" class="nav-link">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Help</a>
+              <a href="#reviews" class="nav-link">Help</a>
             </li>
           </ul>
           <div class="navbar-actions">
@@ -58,7 +59,7 @@
       <div class="hero">
         <div class="container">
           <div class="hero-container">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="fade-right">
               <h1>Want anything to be easy with <strong>LaslesVPN.</strong></h1>
               <p>
                 Provide a network for all your needs with ease and fun using
@@ -66,7 +67,7 @@
               </p>
               <button class="btn-primary">Get Started</button>
             </div>
-            <div class="hero-image">
+            <div class="hero-image" data-aos="fade-left">
               <img src="./assets/img/illustrations/illustration-1.svg" alt="" />
             </div>
           </div>
@@ -74,7 +75,7 @@
       </div>
 
       <!-- Stats -->
-      <div class="stats">
+      <div class="stats" id="stats" data-aos="fade-up">
         <div class="container">
           <div class="stats-container">
             <div class="stat-card">
@@ -109,13 +110,13 @@
       </div>
 
       <!-- Features -->
-      <div class="features">
+      <div class="features" id="features">
         <div class="container">
           <div class="features-container">
-            <div class="features-image">
+            <div class="features-image" data-aos="fade-right">
               <img src="./assets/img/illustrations/illustration-2.svg" alt="" />
             </div>
-            <div class="features-content">
+            <div class="features-content" data-aos="fade-left">
               <h2>We Provide Many Features You Can Use</h2>
               <p>
                 You can explore the features that we provide with fun and have
@@ -145,10 +146,10 @@
       </div>
 
       <!-- Pricings -->
-      <div class="pricings">
+      <div class="pricings" id="pricings">
         <div class="container">
           <div class="pricings-container">
-            <div class="heading-box">
+            <div class="heading-box" data-aos="fade-up">
               <h2>Choose Your Plan</h2>
               <p>
                 Let's choose the package that is best for you and explore it
@@ -157,7 +158,7 @@
             </div>
 
             <div class="pricings-cards">
-              <div class="pricings-card">
+              <div class="pricings-card" data-aos="fade-up-right">
                 <div class="pricings-header">
                   <img src="./assets/img/illustrations/pricing.svg" alt="" />
                   <h4 class="pricings-title">Free Plan</h4>
@@ -187,7 +188,7 @@
                   <button class="btn-outline w-full">Select</button>
                 </div>
               </div>
-              <div class="pricings-card">
+              <div class="pricings-card" data-aos="fade-up">
                 <div class="pricings-header">
                   <img src="./assets/img/illustrations/pricing.svg" alt="" />
                   <h4 class="pricings-title">Free Plan</h4>
@@ -221,7 +222,7 @@
                   <button class="btn-outline w-full">Select</button>
                 </div>
               </div>
-              <div class="pricings-card">
+              <div class="pricings-card" data-aos="fade-up-left">
                 <div class="pricings-header">
                   <img src="./assets/img/illustrations/pricing.svg" alt="" />
                   <h4 class="pricings-title">Free Plan</h4>
@@ -276,14 +277,14 @@
       <div class="locations">
         <div class="container">
           <div class="locations-container">
-            <div class="heading-box">
+            <div class="heading-box" data-aos="fade-up">
               <h2>Huge Global Network of Fast VPN</h2>
               <p>
                 See LaslesVPN everywhere to make it easier for you when you move
                 locations.
               </p>
             </div>
-            <div class="locations-image">
+            <div class="locations-image" data-aos="zoom-in">
               <img src="./assets/img/illustrations/huge-global.svg" alt="" />
             </div>
           </div>
@@ -293,7 +294,7 @@
       <!-- Partners -->
       <div class="partners">
         <div class="container">
-          <div class="partners-container">
+          <div class="partners-container" data-aos="fade-up">
             <div class="partner-logo">
               <img src="./assets/img/brand/netflix.png" alt="" />
             </div>
@@ -314,17 +315,17 @@
       </div>
 
       <!-- Reviews / Testimonials -->
-      <div class="reviews">
+      <div class="reviews" id="reviews">
         <div class="container">
           <div class="reviews-container">
-            <div class="heading-box">
+            <div class="heading-box" data-aos="fade-up">
               <h2>Trusted by Thousands of Happy Customer</h2>
               <p>
                 These are the stories of our customers who have joined us with
                 great pleasure when using this crazy feature.
               </p>
             </div>
-            <div class="review-swiper">
+            <div class="review-swiper" data-aos="fade-up">
               <div class="review-swiper-wrapper">
                 <div class="review-swiper-slide">
                   <div class="review-swiper-card">
@@ -506,9 +507,9 @@
       </div>
 
       <!-- Call-to-action (CTA) -->
-      <div class="cta">
+      <div class="cta" id="cta">
         <div class="container">
-          <div class="cta-container">
+          <div class="cta-container" data-aos="fade-up">
             <div class="cta-content">
               <h2>Subscribe Now for Get Special Features!</h2>
               <p>Let's subscribe with us and find the fun.</p>
@@ -521,7 +522,6 @@
       </div>
     </main>
 
-    <!-- Footer -->
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
@@ -536,17 +536,29 @@
               is a private virtual network that has unique features and has high
               security.
             </p>
-            <div class="media-icons media-icons-sm">
-              <div class="icon-wrapper"></div>
-              <div class="icon-wrapper"></div>
-              <div class="icon-wrapper"></div>
-            </div>
-            <p class="text-md copyright">©2020LaslesVPN</p>
+            <ul class="footer-socials">
+              <li class="footer-social">
+                <a href="" class="footer-social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+              <li class="footer-social">
+                <a href="" class="footer-social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+              <li class="footer-social">
+                <a href="" class="footer-social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright">©2020LaslesVPN</p>
           </div>
           <div class="footer-links" data-aos="fade-left">
             <div>
-              <h5>Product</h5>
-              <ul class="text-md">
+              <h5 class="footer-link-title">Product</h5>
+              <ul class="footer-link-list">
                 <li>
                   <a href="">Download</a>
                 </li>
@@ -568,8 +580,8 @@
               </ul>
             </div>
             <div>
-              <h5>Engage</h5>
-              <ul class="text-md">
+              <h5 class="footer-link-title">Engage</h5>
+              <ul class="footer-link-list">
                 <li>
                   <a href="">LaslesVPN ?</a>
                 </li>
@@ -591,8 +603,8 @@
               </ul>
             </div>
             <div>
-              <h5>Earn Money</h5>
-              <ul class="text-md">
+              <h5 class="footer-link-title">Earn Money</h5>
+              <ul class="footer-link-list">
                 <li>
                   <a href="">Affiliate</a>
                 </li>
@@ -601,8 +613,6 @@
                 </li>
               </ul>
             </div>
-            <div></div>
-            <div></div>
           </div>
         </div>
       </div>
@@ -617,5 +627,13 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 750,
+      });
+    </script>
   </body>
 </html>
